@@ -154,8 +154,8 @@ function formatIssue(
   title: string,
   severity: SEVERITY,
   isNew: boolean,
-  vulnerableModule?: string,
-  legalInstructions?: string): string {
+  legalInstructions?: string,
+  vulnerableModule?: string): string {
   const severitiesColourMapping = {
     low: {
       colorFunc(text) {
